@@ -44,6 +44,8 @@ When evaluating a filament's Technical Data Sheet (TDS), you will often encounte
 
 ## 🟢 Standard Plastics
 
+These are your everyday materials, ideal for rapid prototyping, display models, and low-stress parts.
+
 > [!NOTE]
 > The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
 
