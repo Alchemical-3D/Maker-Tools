@@ -49,8 +49,6 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 > [!NOTE]
 > The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
 
-These are your everyday materials, ideal for rapid prototyping, display models, and low-stress parts.
-
 ### <u>PLA (Polylactic Acid)</u>
 * <u>**Primary Use Case:**</u> Prototyping, aesthetic prints, structural parts that stay at room temperature.
 * <u>**Pros:**</u> Extremely easy to print, highly rigid, no warping, eco-friendly.
@@ -161,10 +159,11 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 
 ## 🟡 Advanced Plastics
 
+These materials sit between standard and true engineering plastics. They offer elevated thermal resistance and are commonly used for 3D printer structural parts (like the **Alembic Toolhead** or **Pneuma** mounts).
+
 > [!NOTE]
 > The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
 
-These materials sit between standard and true engineering plastics. They offer great thermal resistance and are commonly used for 3D printer structural parts (like the **Alembic Toolhead** or **Pneuma** mounts).
 
 ### <u>ABS (Acrylonitrile Butadiene Styrene)</u>
 * <u>**Primary Use Case:**</u> Printer parts, automotive components, durable enclosures.
@@ -249,10 +248,11 @@ These materials sit between standard and true engineering plastics. They offer g
 
 ## 🟠 Engineering Grade Plastics
 
+These materials are required for the highest-heat and highest-stress environments due to their extreme thermal and mechanical properties.
+
 > [!NOTE]
 > The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
 
-These materials are required for the highest-heat and highest-stress environments due to their extreme thermal and mechanical properties.
 
 ### <u>PC (Polycarbonate)</u>
 * <u>**Primary Use Case:**</u> High-heat, high-stress mechanical parts.
