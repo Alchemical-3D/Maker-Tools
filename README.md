@@ -6,7 +6,7 @@
 
 ---
 
-Welcome to the **Alchemical-3D Maker Tools** repository! This project serves as a curated catalog of recommended tools, hardware, and filaments that we use to design, prototype, and build our ecosystem of 3D printing upgrades. 
+Welcome to the **Alchemical-3D Maker Tools & Material Information** repository! This project serves as a curated catalog of recommended tools, hardware, and filament information that we use to design, prototype, and build our ecosystem of 3D printers. 
 
 Whether you are assembling a simple mod or diving deep into a custom printer build, having the right tools makes all the difference.
 
