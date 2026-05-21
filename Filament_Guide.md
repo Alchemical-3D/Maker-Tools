@@ -14,9 +14,9 @@ Below is a breakdown of common filament types used in the 3D printing ecosystem 
 | Category | Materials |
 | :--- | :--- |
 | **🟢 Standard Plastics** | [PLA](#pla-polylactic-acid), [PETG](#petg-polyethylene-terephthalate-glycol), [PCTG](#pctg), [PP](#pp-polypropylene) |
-| **🟡 Advanced Plastics** | [ABS](#abs-acrylonitrile-butadiene-styrene), [ASA](#asa-acrylonitrile-styrene-acrylate), [PC-ABS](#pc-abs-polycarbonate--abs-blend) |
-| **🟠 Engineering Grade** | [PC](#pc-polycarbonate), [PA Series](#pa-nylon-series), [PAHT](#paht-high-temperature-nylon), [PPA](#ppa-polyphthalamide--high-performance-polyamide), [PPS](#pps-polyphenylene-sulfide), [PET](#pet-polyethylene-terephthalate), [PEI](#pei-polyetherimide--ultem), [PSU](#psu-polysulfone), [PEEK](#peek-polyether-ether-ketone) |
-| **🔴 Flexible Materials** | [TPU](#tpu-thermoplastic-polyurethane), [PEBA](#peba-polyether-block-amide) |
+| **🟡 Flexible Materials** | [TPU](#tpu-thermoplastic-polyurethane), [PEBA](#peba-polyether-block-amide) |
+| **🟠 Advanced Plastics** | [ABS](#abs-acrylonitrile-butadiene-styrene), [ASA](#asa-acrylonitrile-styrene-acrylate), [PC-ABS](#pc-abs-polycarbonate--abs-blend) |
+| **🔴 Engineering Grade** | [PC](#pc-polycarbonate), [PA Series](#pa-nylon-series), [PAHT](#paht-high-temperature-nylon), [PPA](#ppa-polyphthalamide--high-performance-polyamide), [PPS](#pps-polyphenylene-sulfide), [PET](#pet-polyethylene-terephthalate), [PEI](#pei-polyetherimide--ultem), [PSU](#psu-polysulfone), [PEEK](#peek-polyether-ether-ketone) |
 | **🟣 Additives & Composites** | [CF Filled](#carbon-fiber-filled-cf), [GF Filled](#glass-fiber-filled-gf), [Co-Extrusion Core](#co-extrusion-core-filaments), [Aero / LW](#aero--lightweight-lw-filaments-eg-lw-pla-lw-asa), [Wood Filled](#wood-filled), [Glitter / Sparkle](#glitter--sparkle), [Color Changing](#color-changing), [Continuous Thread](#continuous-thread) |
 
 <br><hr><br>
@@ -53,6 +53,7 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 * <u>**Primary Use Case:**</u> Prototyping, aesthetic prints, structural parts that stay at room temperature.
 * <u>**Pros:**</u> Extremely easy to print, highly rigid, no warping, eco-friendly.
 * <u>**Cons:**</u> Very low glass transition temperature (~60°C); will deform in hot cars or near printer hotends. Brittle under impact.
+* <u>**Known Solvents:**</u> Dichloromethane, Ethyl Acetate, Chloroform.
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -80,6 +81,7 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 * <u>**Primary Use Case:**</u> Functional parts, mechanical assemblies, water-resistant containers.
 * <u>**Pros:**</u> Better temperature resistance than PLA, highly impact resistant, flexes rather than shattering.
 * <u>**Cons:**</u> Prone to stringing, can over-adhere to certain build plates (like glass or PEI).
+* <u>**Known Solvents:**</u> Dichloromethane, Toluene, Methyl Ethyl Ketone (MEK).
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -107,6 +109,7 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 * <u>**Primary Use Case:**</u> High-impact functional parts, tough mechanical components.
 * <u>**Pros:**</u> Engineered as an advanced successor to PETG. It offers significantly higher impact strength (toughness), improved optical clarity, and slightly better temperature resistance, making it superior for parts that will take a beating.
 * <u>**Cons:**</u> Can be more expensive and slightly more difficult to source than PETG.
+* <u>**Known Solvents:**</u> Dichloromethane, Toluene, Methyl Ethyl Ketone (MEK).
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -134,6 +137,7 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 * <u>**Primary Use Case:**</u> Living hinges, chemical-resistant containers, lightweight parts.
 * <u>**Pros:**</u> Incredible fatigue resistance (great for hinges), very low density, high chemical resistance.
 * <u>**Cons:**</u> Extremely prone to warping, very difficult to adhere to standard build plates (requires specialized tape or adhesives).
+* <u>**Known Solvents:**</u> Hot Xylene, Hot Toluene, Hot Tetralin (Highly resistant at room temp).
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -157,347 +161,7 @@ These are your everyday materials, ideal for rapid prototyping, display models, 
 
 <br><hr><br>
 
-## 🟡 Advanced Plastics
-
-These materials sit between standard and true engineering plastics. They offer elevated thermal resistance and are commonly used for 3D printer structural parts (like the **Alembic Toolhead** or **Pneuma** mounts).
-
-> [!NOTE]
-> The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
-
-
-### <u>ABS (Acrylonitrile Butadiene Styrene)</u>
-* <u>**Primary Use Case:**</u> Printer parts, automotive components, durable enclosures.
-* <u>**Pros:**</u> Excellent temperature resistance (~100°C), easy to sand/smooth (can be acetone smoothed), and highly durable. Very cost-effective.
-* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Prone to severe warping and requires a heated enclosure. Poor UV resistance (will yellow and become brittle in sunlight).
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~40-45 MPa |
-| **Young's Modulus** | ~2000-2200 MPa |
-| **Elongation at Break** | ~15-25 % |
-| **Charpy Impact Strength** | ~30-40 KJ/m² |
-| **Bending Strength** | ~65-75 MPa |
-| **Bending Modulus** | ~2100 MPa |
-| **Vicat Softening Temperature** | ~105 °C |
-| **Glass Transition Temperature (Tg)** | ~100-105 °C |
-| **Shore Hardness D** | ~75 |
-| **Melting Point** | ~220-240 °C |
-| **HDT Method A (1.80 MPa)** | ~85 °C |
-| **HDT Method B (0.45 MPa)** | ~95 °C |
-
-</details>
-
----
-
-### <u>ASA (Acrylonitrile Styrene Acrylate)</u>
-* <u>**Primary Use Case:**</u> Outdoor fixtures, printer parts, automotive exterior components.
-* <u>**Pros:**</u> Engineered specifically as a modern successor to ABS. It retains all the excellent thermal and mechanical benefits of ABS, but adds exceptional UV resistance (it will not yellow or degrade in sunlight) and is often slightly less prone to warping during printing.
-* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Still prone to warping and requires a heated enclosure. Generally slightly more expensive than ABS.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~40-45 MPa |
-| **Young's Modulus** | ~2000-2300 MPa |
-| **Elongation at Break** | ~15-25 % |
-| **Charpy Impact Strength** | ~35-45 KJ/m² |
-| **Bending Strength** | ~65-75 MPa |
-| **Bending Modulus** | ~2200 MPa |
-| **Vicat Softening Temperature** | ~105 °C |
-| **Glass Transition Temperature (Tg)** | ~100-105 °C |
-| **Shore Hardness D** | ~76 |
-| **Melting Point** | ~220-240 °C |
-| **HDT Method A (1.80 MPa)** | ~86 °C |
-| **HDT Method B (0.45 MPa)** | ~96 °C |
-
-</details>
-
----
-
-### <u>PC-ABS (Polycarbonate / ABS Blend)</u>
-* <u>**Primary Use Case:**</u> Enclosures, durable consumer goods, high-impact structural parts.
-* <u>**Pros:**</u> Combines the high impact strength and heat resistance of PC with the better printability of ABS. Less prone to warping than pure PC.
-* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Still requires a heated enclosure. Lower heat resistance than pure PC.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~45-55 MPa |
-| **Young's Modulus** | ~2200-2500 MPa |
-| **Elongation at Break** | ~10-20 % |
-| **Charpy Impact Strength** | ~45-60 KJ/m² |
-| **Bending Strength** | ~75-85 MPa |
-| **Bending Modulus** | ~2400 MPa |
-| **Vicat Softening Temperature** | ~115 °C |
-| **Glass Transition Temperature (Tg)** | ~110 °C |
-| **Shore Hardness D** | ~78 |
-| **Melting Point** | ~240-260 °C |
-| **HDT Method A (1.80 MPa)** | ~95 °C |
-| **HDT Method B (0.45 MPa)** | ~105 °C |
-
-</details>
-
-<br><hr><br>
-
-## 🟠 Engineering Grade Plastics
-
-These materials are required for the highest-heat and highest-stress environments due to their extreme thermal and mechanical properties.
-
-> [!NOTE]
-> The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
-
-
-### <u>PC (Polycarbonate)</u>
-* <u>**Primary Use Case:**</u> High-heat, high-stress mechanical parts.
-* <u>**Pros:**</u> Incredible impact strength and very high temperature resistance (~110°C+).
-* <u>**Cons:**</u> **Emits harmful VOCs (including BPA) during printing (requires ventilation/filtration).** Extremely difficult to print. Requires very high hotend temperatures and a heated chamber.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~60-70 MPa |
-| **Young's Modulus** | ~2300-2600 MPa |
-| **Elongation at Break** | ~5-15 % |
-| **Charpy Impact Strength** | ~60-80 KJ/m² |
-| **Bending Strength** | ~90-100 MPa |
-| **Bending Modulus** | ~2500 MPa |
-| **Vicat Softening Temperature** | ~145 °C |
-| **Glass Transition Temperature (Tg)** | ~145-150 °C |
-| **Shore Hardness D** | ~82 |
-| **Melting Point** | ~280-310 °C |
-| **HDT Method A (1.80 MPa)** | ~110 °C |
-| **HDT Method B (0.45 MPa)** | ~130 °C |
-
-</details>
-
----
-
-### <u>PA (Nylon) Series</u>
-* <u>**Primary Use Case:**</u> Gears, bearings, high-wear mechanical components.
-* <u>**Pros:**</u> Incredible wear resistance, low friction, high impact strength.
-* <u>**Cons:**</u> **Emits harmful VOCs and UFPs including caprolactam (requires ventilation).** Extremely hygroscopic (must be printed dry), prone to warping, low stiffness unless fiber-filled.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~50-60 MPa (Dry) |
-| **Young's Modulus** | ~1500-2500 MPa (Dry) |
-| **Elongation at Break** | ~50-100 % |
-| **Charpy Impact Strength** | ~50-80 KJ/m² |
-| **Bending Strength** | ~60-80 MPa |
-| **Bending Modulus** | ~1800 MPa |
-| **Vicat Softening Temperature** | ~160 °C |
-| **Glass Transition Temperature (Tg)** | ~50-60 °C |
-| **Shore Hardness D** | ~75 |
-| **Melting Point** | ~220-260 °C |
-| **HDT Method A (1.80 MPa)** | ~60 °C |
-| **HDT Method B (0.45 MPa)** | ~120 °C |
-
-</details>
-
----
-
-### <u>PAHT (High-Temperature Nylon)</u>
-* <u>**Primary Use Case:**</u> High-temperature structural parts.
-* <u>**Pros:**</u> Maintains structural integrity at much higher temperatures than standard PA, excellent chemical resistance.
-* <u>**Cons:**</u> **Emits harmful VOCs and UFPs (requires ventilation).** Very hygroscopic, requires high extrusion temperatures.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~60-75 MPa |
-| **Young's Modulus** | ~2500-3000 MPa |
-| **Elongation at Break** | ~15-30 % |
-| **Charpy Impact Strength** | ~40-60 KJ/m² |
-| **Bending Strength** | ~85-100 MPa |
-| **Bending Modulus** | ~2700 MPa |
-| **Vicat Softening Temperature** | ~200 °C |
-| **Glass Transition Temperature (Tg)** | ~80-90 °C |
-| **Shore Hardness D** | ~80 |
-| **Melting Point** | ~260-280 °C |
-| **HDT Method A (1.80 MPa)** | ~90 °C |
-| **HDT Method B (0.45 MPa)** | ~160 °C |
-
-</details>
-
----
-
-### <u>PPA (Polyphthalamide / High-Performance Polyamide)</u>
-* <u>**Primary Use Case:**</u> Metal replacement parts, automotive under-the-hood components.
-* <u>**Pros:**</u> Superior thermal performance and stiffness compared to standard aliphatic nylons (PA), lower moisture absorption.
-* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation).** Requires extremely high printing temperatures and a heated chamber, expensive.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~70-85 MPa |
-| **Young's Modulus** | ~3000-3500 MPa |
-| **Elongation at Break** | ~5-15 % |
-| **Charpy Impact Strength** | ~30-50 KJ/m² |
-| **Bending Strength** | ~100-120 MPa |
-| **Bending Modulus** | ~3200 MPa |
-| **Vicat Softening Temperature** | ~250 °C |
-| **Glass Transition Temperature (Tg)** | ~120-130 °C |
-| **Shore Hardness D** | ~84 |
-| **Melting Point** | ~300-310 °C |
-| **HDT Method A (1.80 MPa)** | ~110 °C |
-| **HDT Method B (0.45 MPa)** | ~180 °C |
-
-</details>
-
----
-
-### <u>PPS (Polyphenylene Sulfide)</u>
-* <u>**Primary Use Case:**</u> Aerospace, automotive, and extreme chemical environments.
-* <u>**Pros:**</u> Outstanding chemical resistance (insoluble in almost any known solvent under 200°C), inherent flame retardancy, very high continuous use temperature.
-* <u>**Cons:**</u> **Emits highly toxic sulfur compounds and VOCs during printing (requires heavy ventilation/filtration).** Very difficult to print, requires highly specialized high-temperature hardware, very expensive.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~70-80 MPa |
-| **Young's Modulus** | ~3500-4000 MPa |
-| **Elongation at Break** | ~2-5 % |
-| **Charpy Impact Strength** | ~20-30 KJ/m² |
-| **Bending Strength** | ~110-130 MPa |
-| **Bending Modulus** | ~3800 MPa |
-| **Vicat Softening Temperature** | ~270 °C |
-| **Glass Transition Temperature (Tg)** | ~90 °C |
-| **Shore Hardness D** | ~85 |
-| **Melting Point** | ~285 °C |
-| **HDT Method A (1.80 MPa)** | ~105 °C |
-| **HDT Method B (0.45 MPa)** | ~160 °C |
-
-</details>
-
----
-
-### <u>PET (Polyethylene Terephthalate)</u>
-* <u>**Primary Use Case:**</u> High-strength mechanical parts, dimensionally stable structural components (often fiber-filled).
-* <u>**Pros:**</u> Extremely high stiffness and tensile strength, excellent chemical resistance, very low moisture absorption compared to nylons. Can be annealed for extreme heat resistance.
-* <u>**Cons:**</u> Harder to print than PETG, prone to crystallization/opacity changes depending on cooling rate.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~55-65 MPa |
-| **Young's Modulus** | ~2600-3000 MPa |
-| **Elongation at Break** | ~10-20 % |
-| **Charpy Impact Strength** | ~30-50 KJ/m² |
-| **Bending Strength** | ~80-95 MPa |
-| **Bending Modulus** | ~2800 MPa |
-| **Vicat Softening Temperature** | ~150 °C |
-| **Glass Transition Temperature (Tg)** | ~70-80 °C |
-| **Shore Hardness D** | ~80 |
-| **Melting Point** | ~250-260 °C |
-| **HDT Method A (1.80 MPa)** | ~65 °C |
-| **HDT Method B (0.45 MPa)** | ~100 °C |
-
-</details>
-
----
-
-### <u>PEI (Polyetherimide / Ultem)</u>
-* <u>**Primary Use Case:**</u> Aerospace, medical, and extreme environment electrical components.
-* <u>**Pros:**</u> Incredible inherent flame retardancy (V-0 rating), exceptional continuous use temperature (up to 170°C+), extremely high dielectric strength, and great chemical resistance.
-* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation/filtration).** Extremely demanding to print. Requires hotend temperatures of 360-400°C and a very hot active heated chamber. Very expensive.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~90-105 MPa |
-| **Young's Modulus** | ~3200-3500 MPa |
-| **Elongation at Break** | ~5-10 % |
-| **Charpy Impact Strength** | ~40-60 KJ/m² |
-| **Bending Strength** | ~130-150 MPa |
-| **Bending Modulus** | ~3300 MPa |
-| **Vicat Softening Temperature** | ~215 °C |
-| **Glass Transition Temperature (Tg)** | ~215-217 °C |
-| **Shore Hardness D** | ~86 |
-| **Melting Point** | ~Amorphous |
-| **HDT Method A (1.80 MPa)** | ~200 °C |
-| **HDT Method B (0.45 MPa)** | ~210 °C |
-
-</details>
-
----
-
-### <u>PSU (Polysulfone)</u>
-* <u>**Primary Use Case:**</u> Medical devices, plumbing components, and applications requiring sterilization.
-* <u>**Pros:**</u> High thermal stability, excellent resistance to hydrolysis (can withstand repeated steam sterilization/autoclaving), and good radiation resistance.
-* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation/filtration).** Requires high extrusion temperatures and a heated chamber. Prone to internal stresses if not cooled slowly.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~70-80 MPa |
-| **Young's Modulus** | ~2600-2800 MPa |
-| **Elongation at Break** | ~5-10 % |
-| **Charpy Impact Strength** | ~40-50 KJ/m² |
-| **Bending Strength** | ~100-110 MPa |
-| **Bending Modulus** | ~2700 MPa |
-| **Vicat Softening Temperature** | ~190 °C |
-| **Glass Transition Temperature (Tg)** | ~190 °C |
-| **Shore Hardness D** | ~84 |
-| **Melting Point** | ~Amorphous |
-| **HDT Method A (1.80 MPa)** | ~175 °C |
-| **HDT Method B (0.45 MPa)** | ~185 °C |
-
-</details>
-
----
-
-### <u>PEEK (Polyether Ether Ketone)</u>
-* <u>**Primary Use Case:**</u> Metal replacement in aerospace, automotive, and high-performance engineering applications.
-* <u>**Pros:**</u> The gold standard of polymer performance. Incredible mechanical strength, extreme temperature resistance (continuous use above 250°C), and near-universal chemical resistance.
-* <u>**Cons:**</u> **Emits harmful VOCs during printing (requires heavy ventilation/filtration).** One of the most difficult materials to print. Requires extreme hotend temperatures (400°C+) and a highly controlled, high-temperature heated chamber. Exorbitantly expensive.
-
-<details>
-<summary><b>View Material Properties (Rough Average)</b></summary>
-
-| Property | Typical Value |
-| :--- | :--- |
-| **Tensile Stress at Break** | ~95-105 MPa |
-| **Young's Modulus** | ~3600-4000 MPa |
-| **Elongation at Break** | ~15-25 % |
-| **Charpy Impact Strength** | ~60-80 KJ/m² |
-| **Bending Strength** | ~150-170 MPa |
-| **Bending Modulus** | ~3800 MPa |
-| **Vicat Softening Temperature** | ~315 °C |
-| **Glass Transition Temperature (Tg)** | ~143-150 °C |
-| **Shore Hardness D** | ~88 |
-| **Melting Point** | ~343 °C |
-| **HDT Method A (1.80 MPa)** | ~152 °C |
-| **HDT Method B (0.45 MPa)** | ~200 °C |
-
-</details>
-
-<br><hr><br>
-
-## 🔴 Flexible Materials
+## 🟡 Flexible Materials
 
 > [!NOTE]
 > The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
@@ -506,6 +170,7 @@ These materials are required for the highest-heat and highest-stress environment
 * <u>**Primary Use Case:**</u> Gaskets, vibration dampeners, flexible hinges, tires.
 * <u>**Pros:**</u> Highly flexible, extreme layer adhesion, nearly indestructible.
 * <u>**Cons:**</u> Difficult to print on standard Bowden setups; requires a well-constrained direct drive extruder (like the **Pestle** in direct-drive configuration). Must be printed slowly.
+* <u>**Known Solvents:**</u> Tetrahydrofuran (THF), Dimethylformamide (DMF), N-Methyl-2-pyrrolidone (NMP).
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -533,6 +198,7 @@ These materials are required for the highest-heat and highest-stress environment
 * <u>**Primary Use Case:**</u> High-performance sporting goods, footwear, extremely durable flexible parts.
 * <u>**Pros:**</u> Exceptional energy return, maintains flexibility even at very low temperatures, lower density than TPU.
 * <u>**Cons:**</u> More difficult to print than TPU, highly hygroscopic, often more expensive.
+* <u>**Known Solvents:**</u> Formic Acid, Phenol, Benzyl Alcohol.
 
 <details>
 <summary><b>View Material Properties (Rough Average)</b></summary>
@@ -551,6 +217,358 @@ These materials are required for the highest-heat and highest-stress environment
 | **Melting Point** | ~150-170 °C |
 | **HDT Method A (1.80 MPa)** | ~N/A |
 | **HDT Method B (0.45 MPa)** | ~N/A |
+
+</details>
+
+<br><hr><br>
+
+## 🟠 Advanced Plastics
+
+These materials sit between standard and true engineering plastics. They offer elevated thermal resistance and are commonly used for 3D printer structural parts (like the **Alembic Toolhead** or **Pneuma** mounts).
+
+> [!NOTE]
+> The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
+
+
+### <u>ABS (Acrylonitrile Butadiene Styrene)</u>
+* <u>**Primary Use Case:**</u> Printer parts, automotive components, durable enclosures.
+* <u>**Pros:**</u> Excellent temperature resistance (~100°C), easy to sand/smooth (can be acetone smoothed), and highly durable. Very cost-effective.
+* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Prone to severe warping and requires a heated enclosure. Poor UV resistance (will yellow and become brittle in sunlight).
+* <u>**Known Solvents:**</u> Acetone, Methyl Ethyl Ketone (MEK), Dichloromethane.
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~40-45 MPa |
+| **Young's Modulus** | ~2000-2200 MPa |
+| **Elongation at Break** | ~15-25 % |
+| **Charpy Impact Strength** | ~30-40 KJ/m² |
+| **Bending Strength** | ~65-75 MPa |
+| **Bending Modulus** | ~2100 MPa |
+| **Vicat Softening Temperature** | ~105 °C |
+| **Glass Transition Temperature (Tg)** | ~100-105 °C |
+| **Shore Hardness D** | ~75 |
+| **Melting Point** | ~220-240 °C |
+| **HDT Method A (1.80 MPa)** | ~85 °C |
+| **HDT Method B (0.45 MPa)** | ~95 °C |
+
+</details>
+
+---
+
+### <u>ASA (Acrylonitrile Styrene Acrylate)</u>
+* <u>**Primary Use Case:**</u> Outdoor fixtures, printer parts, automotive exterior components.
+* <u>**Pros:**</u> Engineered specifically as a modern successor to ABS. It retains all the excellent thermal and mechanical benefits of ABS, but adds exceptional UV resistance (it will not yellow or degrade in sunlight) and is often slightly less prone to warping during printing.
+* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Still prone to warping and requires a heated enclosure. Generally slightly more expensive than ABS.
+* <u>**Known Solvents:**</u> Acetone, Methyl Ethyl Ketone (MEK), Dichloromethane.
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~40-45 MPa |
+| **Young's Modulus** | ~2000-2300 MPa |
+| **Elongation at Break** | ~15-25 % |
+| **Charpy Impact Strength** | ~35-45 KJ/m² |
+| **Bending Strength** | ~65-75 MPa |
+| **Bending Modulus** | ~2200 MPa |
+| **Vicat Softening Temperature** | ~105 °C |
+| **Glass Transition Temperature (Tg)** | ~100-105 °C |
+| **Shore Hardness D** | ~76 |
+| **Melting Point** | ~220-240 °C |
+| **HDT Method A (1.80 MPa)** | ~86 °C |
+| **HDT Method B (0.45 MPa)** | ~96 °C |
+
+</details>
+
+---
+
+### <u>PC-ABS (Polycarbonate / ABS Blend)</u>
+* <u>**Primary Use Case:**</u> Enclosures, durable consumer goods, high-impact structural parts.
+* <u>**Pros:**</u> Combines the high impact strength and heat resistance of PC with the better printability of ABS. Less prone to warping than pure PC.
+* <u>**Cons:**</u> **Emits toxic styrene fumes during printing (requires heavy ventilation/filtration).** Still requires a heated enclosure. Lower heat resistance than pure PC.
+* <u>**Known Solvents:**</u> Acetone, Dichloromethane, Methyl Ethyl Ketone (MEK).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~45-55 MPa |
+| **Young's Modulus** | ~2200-2500 MPa |
+| **Elongation at Break** | ~10-20 % |
+| **Charpy Impact Strength** | ~45-60 KJ/m² |
+| **Bending Strength** | ~75-85 MPa |
+| **Bending Modulus** | ~2400 MPa |
+| **Vicat Softening Temperature** | ~115 °C |
+| **Glass Transition Temperature (Tg)** | ~110 °C |
+| **Shore Hardness D** | ~78 |
+| **Melting Point** | ~240-260 °C |
+| **HDT Method A (1.80 MPa)** | ~95 °C |
+| **HDT Method B (0.45 MPa)** | ~105 °C |
+
+</details>
+
+<br><hr><br>
+
+## 🔴 Engineering Grade Plastics
+
+These materials are required for the highest-heat and highest-stress environments due to their extreme thermal and mechanical properties.
+
+> [!NOTE]
+> The property values provided below are estimates and may not reflect specific products. Please reference the Technical Data Sheet (TDS) for your explicit filament choice.
+
+
+### <u>PC (Polycarbonate)</u>
+* <u>**Primary Use Case:**</u> High-heat, high-stress mechanical parts.
+* <u>**Pros:**</u> Incredible impact strength and very high temperature resistance (~110°C+).
+* <u>**Cons:**</u> **Emits harmful VOCs (including BPA) during printing (requires ventilation/filtration).** Extremely difficult to print. Requires very high hotend temperatures and a heated chamber.
+* <u>**Known Solvents:**</u> Dichloromethane, Chloroform, Tetrahydrofuran (THF).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~60-70 MPa |
+| **Young's Modulus** | ~2300-2600 MPa |
+| **Elongation at Break** | ~5-15 % |
+| **Charpy Impact Strength** | ~60-80 KJ/m² |
+| **Bending Strength** | ~90-100 MPa |
+| **Bending Modulus** | ~2500 MPa |
+| **Vicat Softening Temperature** | ~145 °C |
+| **Glass Transition Temperature (Tg)** | ~145-150 °C |
+| **Shore Hardness D** | ~82 |
+| **Melting Point** | ~280-310 °C |
+| **HDT Method A (1.80 MPa)** | ~110 °C |
+| **HDT Method B (0.45 MPa)** | ~130 °C |
+
+</details>
+
+---
+
+### <u>PA (Nylon) Series</u>
+* <u>**Primary Use Case:**</u> Gears, bearings, high-wear mechanical components.
+* <u>**Pros:**</u> Incredible wear resistance, low friction, high impact strength.
+* <u>**Cons:**</u> **Emits harmful VOCs and UFPs including caprolactam (requires ventilation).** Extremely hygroscopic (must be printed dry), prone to warping, low stiffness unless fiber-filled.
+* <u>**Known Solvents:**</u> Formic Acid, Phenol, Hexafluoro-2-propanol.
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~50-60 MPa (Dry) |
+| **Young's Modulus** | ~1500-2500 MPa (Dry) |
+| **Elongation at Break** | ~50-100 % |
+| **Charpy Impact Strength** | ~50-80 KJ/m² |
+| **Bending Strength** | ~60-80 MPa |
+| **Bending Modulus** | ~1800 MPa |
+| **Vicat Softening Temperature** | ~160 °C |
+| **Glass Transition Temperature (Tg)** | ~50-60 °C |
+| **Shore Hardness D** | ~75 |
+| **Melting Point** | ~220-260 °C |
+| **HDT Method A (1.80 MPa)** | ~60 °C |
+| **HDT Method B (0.45 MPa)** | ~120 °C |
+
+</details>
+
+---
+
+### <u>PAHT (High-Temperature Nylon)</u>
+* <u>**Primary Use Case:**</u> High-temperature structural parts.
+* <u>**Pros:**</u> Maintains structural integrity at much higher temperatures than standard PA, excellent chemical resistance.
+* <u>**Cons:**</u> **Emits harmful VOCs and UFPs (requires ventilation).** Very hygroscopic, requires high extrusion temperatures.
+* <u>**Known Solvents:**</u> Formic Acid, Phenol, Hexafluoro-2-propanol.
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~60-75 MPa |
+| **Young's Modulus** | ~2500-3000 MPa |
+| **Elongation at Break** | ~15-30 % |
+| **Charpy Impact Strength** | ~40-60 KJ/m² |
+| **Bending Strength** | ~85-100 MPa |
+| **Bending Modulus** | ~2700 MPa |
+| **Vicat Softening Temperature** | ~200 °C |
+| **Glass Transition Temperature (Tg)** | ~80-90 °C |
+| **Shore Hardness D** | ~80 |
+| **Melting Point** | ~260-280 °C |
+| **HDT Method A (1.80 MPa)** | ~90 °C |
+| **HDT Method B (0.45 MPa)** | ~160 °C |
+
+</details>
+
+---
+
+### <u>PPA (Polyphthalamide / High-Performance Polyamide)</u>
+* <u>**Primary Use Case:**</u> Metal replacement parts, automotive under-the-hood components.
+* <u>**Pros:**</u> Superior thermal performance and stiffness compared to standard aliphatic nylons (PA), lower moisture absorption.
+* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation).** Requires extremely high printing temperatures and a heated chamber, expensive.
+* <u>**Known Solvents:**</u> Formic Acid, Phenol, Hexafluoro-2-propanol.
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~70-85 MPa |
+| **Young's Modulus** | ~3000-3500 MPa |
+| **Elongation at Break** | ~5-15 % |
+| **Charpy Impact Strength** | ~30-50 KJ/m² |
+| **Bending Strength** | ~100-120 MPa |
+| **Bending Modulus** | ~3200 MPa |
+| **Vicat Softening Temperature** | ~250 °C |
+| **Glass Transition Temperature (Tg)** | ~120-130 °C |
+| **Shore Hardness D** | ~84 |
+| **Melting Point** | ~300-310 °C |
+| **HDT Method A (1.80 MPa)** | ~110 °C |
+| **HDT Method B (0.45 MPa)** | ~180 °C |
+
+</details>
+
+---
+
+### <u>PPS (Polyphenylene Sulfide)</u>
+* <u>**Primary Use Case:**</u> Aerospace, automotive, and extreme chemical environments.
+* <u>**Pros:**</u> Outstanding chemical resistance (insoluble in almost any known solvent under 200°C), inherent flame retardancy, very high continuous use temperature.
+* <u>**Cons:**</u> **Emits highly toxic sulfur compounds and VOCs during printing (requires heavy ventilation/filtration).** Very difficult to print, requires highly specialized high-temperature hardware, very expensive.
+* <u>**Known Solvents:**</u> None below 200°C (Insoluble in all known solvents at room temp).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~70-80 MPa |
+| **Young's Modulus** | ~3500-4000 MPa |
+| **Elongation at Break** | ~2-5 % |
+| **Charpy Impact Strength** | ~20-30 KJ/m² |
+| **Bending Strength** | ~110-130 MPa |
+| **Bending Modulus** | ~3800 MPa |
+| **Vicat Softening Temperature** | ~270 °C |
+| **Glass Transition Temperature (Tg)** | ~90 °C |
+| **Shore Hardness D** | ~85 |
+| **Melting Point** | ~285 °C |
+| **HDT Method A (1.80 MPa)** | ~105 °C |
+| **HDT Method B (0.45 MPa)** | ~160 °C |
+
+</details>
+
+---
+
+### <u>PET (Polyethylene Terephthalate)</u>
+* <u>**Primary Use Case:**</u> High-strength mechanical parts, dimensionally stable structural components (often fiber-filled).
+* <u>**Pros:**</u> Extremely high stiffness and tensile strength, excellent chemical resistance, very low moisture absorption compared to nylons. Can be annealed for extreme heat resistance.
+* <u>**Cons:**</u> Harder to print than PETG, prone to crystallization/opacity changes depending on cooling rate.
+* <u>**Known Solvents:**</u> Phenol/Tetrachloroethane, Hexafluoroisopropanol (HFIP), Trifluoroacetic acid (TFA).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~55-65 MPa |
+| **Young's Modulus** | ~2600-3000 MPa |
+| **Elongation at Break** | ~10-20 % |
+| **Charpy Impact Strength** | ~30-50 KJ/m² |
+| **Bending Strength** | ~80-95 MPa |
+| **Bending Modulus** | ~2800 MPa |
+| **Vicat Softening Temperature** | ~150 °C |
+| **Glass Transition Temperature (Tg)** | ~70-80 °C |
+| **Shore Hardness D** | ~80 |
+| **Melting Point** | ~250-260 °C |
+| **HDT Method A (1.80 MPa)** | ~65 °C |
+| **HDT Method B (0.45 MPa)** | ~100 °C |
+
+</details>
+
+---
+
+### <u>PEI (Polyetherimide / Ultem)</u>
+* <u>**Primary Use Case:**</u> Aerospace, medical, and extreme environment electrical components.
+* <u>**Pros:**</u> Incredible inherent flame retardancy (V-0 rating), exceptional continuous use temperature (up to 170°C+), extremely high dielectric strength, and great chemical resistance.
+* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation/filtration).** Extremely demanding to print. Requires hotend temperatures of 360-400°C and a very hot active heated chamber. Very expensive.
+* <u>**Known Solvents:**</u> Dichloromethane, Chloroform, N-Methyl-2-pyrrolidone (NMP).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~90-105 MPa |
+| **Young's Modulus** | ~3200-3500 MPa |
+| **Elongation at Break** | ~5-10 % |
+| **Charpy Impact Strength** | ~40-60 KJ/m² |
+| **Bending Strength** | ~130-150 MPa |
+| **Bending Modulus** | ~3300 MPa |
+| **Vicat Softening Temperature** | ~215 °C |
+| **Glass Transition Temperature (Tg)** | ~215-217 °C |
+| **Shore Hardness D** | ~86 |
+| **Melting Point** | ~Amorphous |
+| **HDT Method A (1.80 MPa)** | ~200 °C |
+| **HDT Method B (0.45 MPa)** | ~210 °C |
+
+</details>
+
+---
+
+### <u>PSU (Polysulfone)</u>
+* <u>**Primary Use Case:**</u> Medical devices, plumbing components, and applications requiring sterilization.
+* <u>**Pros:**</u> High thermal stability, excellent resistance to hydrolysis (can withstand repeated steam sterilization/autoclaving), and good radiation resistance.
+* <u>**Cons:**</u> **Emits harmful VOCs at high processing temperatures (requires ventilation/filtration).** Requires high extrusion temperatures and a heated chamber. Prone to internal stresses if not cooled slowly.
+* <u>**Known Solvents:**</u> Dichloromethane, Chloroform, N-Methyl-2-pyrrolidone (NMP).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~70-80 MPa |
+| **Young's Modulus** | ~2600-2800 MPa |
+| **Elongation at Break** | ~5-10 % |
+| **Charpy Impact Strength** | ~40-50 KJ/m² |
+| **Bending Strength** | ~100-110 MPa |
+| **Bending Modulus** | ~2700 MPa |
+| **Vicat Softening Temperature** | ~190 °C |
+| **Glass Transition Temperature (Tg)** | ~190 °C |
+| **Shore Hardness D** | ~84 |
+| **Melting Point** | ~Amorphous |
+| **HDT Method A (1.80 MPa)** | ~175 °C |
+| **HDT Method B (0.45 MPa)** | ~185 °C |
+
+</details>
+
+---
+
+### <u>PEEK (Polyether Ether Ketone)</u>
+* <u>**Primary Use Case:**</u> Metal replacement in aerospace, automotive, and high-performance engineering applications.
+* <u>**Pros:**</u> The gold standard of polymer performance. Incredible mechanical strength, extreme temperature resistance (continuous use above 250°C), and near-universal chemical resistance.
+* <u>**Cons:**</u> **Emits harmful VOCs during printing (requires heavy ventilation/filtration).** One of the most difficult materials to print. Requires extreme hotend temperatures (400°C+) and a highly controlled, high-temperature heated chamber. Exorbitantly expensive.
+* <u>**Known Solvents:**</u> Concentrated Sulfuric Acid, Concentrated Nitric Acid (degrades).
+
+<details>
+<summary><b>View Material Properties (Rough Average)</b></summary>
+
+| Property | Typical Value |
+| :--- | :--- |
+| **Tensile Stress at Break** | ~95-105 MPa |
+| **Young's Modulus** | ~3600-4000 MPa |
+| **Elongation at Break** | ~15-25 % |
+| **Charpy Impact Strength** | ~60-80 KJ/m² |
+| **Bending Strength** | ~150-170 MPa |
+| **Bending Modulus** | ~3800 MPa |
+| **Vicat Softening Temperature** | ~315 °C |
+| **Glass Transition Temperature (Tg)** | ~143-150 °C |
+| **Shore Hardness D** | ~88 |
+| **Melting Point** | ~343 °C |
+| **HDT Method A (1.80 MPa)** | ~152 °C |
+| **HDT Method B (0.45 MPa)** | ~200 °C |
 
 </details>
 
