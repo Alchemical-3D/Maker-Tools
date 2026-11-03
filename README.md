@@ -22,3 +22,7 @@ Whether you are assembling a simple mod or diving deep into a custom printer bui
 > [!NOTE]
 > **Affiliate Links**
 > Some links within these documents are affiliate links. Purchasing through them helps support the continued development of Alchemical-3D projects at no additional cost to you!
+
+***
+*Documentation prepared with AI editorial assistance • Engineered & maintained by Alchemical-3D.*
+

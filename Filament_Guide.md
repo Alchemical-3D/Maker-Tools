@@ -645,3 +645,7 @@ These materials are required for the highest-heat and highest-stress environment
 > **Moisture:** Almost all filaments (especially PETG, Nylon, and PC) are hygroscopic and absorb moisture from the air, ruining print quality. **Note that composite/filled filaments (like CF or GF variants) tend to be vastly more hygroscopic than their unfilled counterparts**, as the microscopic fibers can act like wicks, pulling moisture deep into the material via capillary action. Check out the **[Retort Dehumidifier](https://github.com/Alchemical-3D/Retort)** project for our solution to active filament moisture management.
 >
 > **Abrasiveness:** Additives drastically change a filament's wear properties. While CF and GF are famously abrasive, **Glow-in-the-Dark** filaments (which contain strontium aluminate) are actually among the most abrasive materials you can print and will destroy a standard brass nozzle in a single print. Even heavy pigment dyes (like the titanium dioxide used in stark white or matte filaments) can act as mild abrasives over time, requiring periodic nozzle checks!
+
+***
+*Documentation prepared with AI editorial assistance • Engineered & maintained by Alchemical-3D.*
+

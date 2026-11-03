@@ -9,7 +9,7 @@ This document catalogs essential tools for building and modifying 3D printers an
 | Item Name & Link | Why it Matters | Category / Notes |
 | :--- | :--- | :--- |
 | **[Wisesorb Activated Alumina Desiccant](https://amzn.to/4drSvOr)** | *Note: Activated alumina can absorb a significant amount of moisture and is especially effective at capturing water vapor, making it a great choice for drying filaments, such as PETG and Nylon, that are more hygroscopic than PLA.* | *Desiccant* |
-| **[Stainless Steel Powder Shaker](https://amzn.to/4dose3u)** | *Note: This container fits inside the center of spools andcan be filled with dessicant. It easily survives being heated in an oven or dryer, making a recharge as easy as tossing it into an oven!* | *Tools / Container* |
+| **[Stainless Steel Powder Shaker](https://amzn.to/4dose3u)** | *Note: This container fits inside the center of spools and can be filled with desiccant. It easily survives being heated in an oven or dryer, making a recharge as easy as tossing it into an oven!* | *Tools / Container* |
 
 ## 🔌 Soldering & Electronics
 
@@ -94,3 +94,7 @@ Let's face it: 3D printing is at least 30% technical skill and 70% looking the p
 | Item | Link |
 | :--- | :--- |
 | **Fabreeko T-Shirt** | [Logo Tee](https://www.fabreeko.com/products/fabreeko-logo-t-shirt?_pos=1&_psq=shirt&_ss=e&_v=1.0) |
+
+***
+*Documentation prepared with AI editorial assistance • Engineered & maintained by Alchemical-3D.*
+
